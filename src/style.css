@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  body {
+    @apply font-nunito;
+  }
+}
+
+@layer utilities {
+  .icon-avatar {
+    @apply flex justify-center items-center w-12 h-12  text-center rounded-full object-cover text-[20px] bg-gray-200;
+  }
+}
