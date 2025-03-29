@@ -5,8 +5,8 @@ import { Camera } from 'lucide-vue-next';
 <template>
   <div>
     <h1>Dashboard de vendas</h1>
-    <span class="icon-avatar">AG</span>
-    <Camera />
+
+    <button type="button" class="btn btn-primary">Primary</button>
   </div>
 </template>
 

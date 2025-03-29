@@ -5,6 +5,9 @@ export default {
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
     },
+    borderColor: {
+      'btn-primary': 'rgb(67, 97, 238, 0.75)',
+    },
     extend: {},
   },
   plugins: [],

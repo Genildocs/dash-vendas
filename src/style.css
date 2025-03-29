@@ -17,4 +17,14 @@
   .icon-avatar {
     @apply flex justify-center items-center w-12 h-12  text-center rounded-full object-cover text-[20px] bg-gray-200;
   }
+
+  .btn {
+    @apply relative flex items-center justify-center rounded-[0.375rem] border py-2 px-5 text-sm font-semibold outline-2 outline-dashed outline-transparent outline-offset-2;
+  }
+
+  .btn-primary {
+    @apply text-opacity-100 bg-opacity-100 border-opacity-100 border-btn-primary shadow-[rgb(67,97,238,0.6)];
+    background-color: rgb(67 97 238, var(--tw-bg-opacity));
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
